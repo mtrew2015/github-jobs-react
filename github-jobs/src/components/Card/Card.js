@@ -5,10 +5,7 @@ import './Card.scss'
 function Card(props) {
     const {data} = props
     
-    useEffect(() => {
-         props.setData(jobData)
-    
-    }, [])
+
 	return (
         <div className="card-wrapper">
         	{data.map((job) => {

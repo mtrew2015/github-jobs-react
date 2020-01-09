@@ -7,12 +7,10 @@ import Search from './components/Search/Search';
 import {jobData} from './components/data/data'
 
 function App() {
-	const [ data, setData ] = useState(jobData);
+	const [ data, setData ] = useState([]);
     
     useEffect(() => {
-        axios
-        .get('https://jobs.github.com/positions.json?description=&location=new-york')
-        .then(res => console.log(res))
+      setData(jobData)
         
     }, [])
 
