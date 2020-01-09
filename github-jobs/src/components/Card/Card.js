@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import {jobData} from '../data/data';
 import './Card.scss'
 
 function Card(props) {
@@ -25,3 +24,4 @@ function Card(props) {
 }
 
 export default Card;
+
