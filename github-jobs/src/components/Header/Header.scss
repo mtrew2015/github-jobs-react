@@ -3,15 +3,19 @@
     flex-direction: column;
     height: 20vh;
     align-items: center;
+    width: 100%;
     h1{
         font-size: 3.6rem;
     }
 }
 .links{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
     a{
         text-decoration: none;
+        color: black;
+        margin-right: 30px;
     }
 }
